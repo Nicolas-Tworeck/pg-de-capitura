@@ -19,32 +19,34 @@ body {
     text-align: center;
     width: 25em;
 }
-ul li{
+
+ul li {
     list-style: none;
     text-align: center;
 }
-.campos{
+
+.campos {
     margin-top: 2em;
 }
 
-.input input{
+.input input {
     margin-bottom: 1em;
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    background-color:rgb(206, 206, 206) ;
+    background-color: rgb(206, 206, 206);
     border-radius: 10px;
     font-size: 17px;
     color: grey;
     width: 14em;
 }
 
-.input label{
+.input label {
     margin-right: 9.5em;
     font-size: 20px;
 }
 
-.log-cad button{
+.log-cad button {
     border-radius: 10px;
     width: 7em;
 
@@ -52,32 +54,44 @@ ul li{
     left: 23px;
 }
 
-.box li{
+.box li {
     position: relative;
     right: 15px;
     color: grey;
 }
 
-.box li a{
+.box li a {
     color: grey;
 }
 
-.conect li{
+.conect li {
     color: grey;
     position: relative;
     right: 44px;
 }
 
-.goo-fac{
+#log {
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+.goo-fac {
     margin-bottom: 1.5em;
 
 }
-.goo-fac img{
+
+.goo-fac img {
     margin-top: 7px;
     border-radius: 40px;
     width: 30px;
 }
-.goo-fac button{
+
+.goo-fac button {
     font-size: 15px;
     margin-top: 10px;
     width: 14em;
@@ -89,25 +103,29 @@ ul li{
 }
 
 
-p{
+p {
     margin-top: -5px;
 }
+
 button {
     cursor: pointer;
 
 }
-h6{
+
+h6 {
     color: grey;
     position: relative;
     left: 20px;
     margin-top: -2px;
     margin-bottom: -15px;
 }
-h1{
+
+h1 {
     position: relative;
     left: 20px;
     font-size: 50px;
 }
-button :active{
+
+button :active {
     opacity: 0.6;
 }
