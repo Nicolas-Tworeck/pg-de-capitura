@@ -52,7 +52,21 @@ ul li{
     left: 23px;
 }
 
+.box li{
+    position: relative;
+    right: 15px;
+    color: grey;
+}
 
+.box li a{
+    color: grey;
+}
+
+.conect li{
+    color: grey;
+    position: relative;
+    right: 44px;
+}
 
 .goo-fac{
     margin-bottom: 1.5em;
