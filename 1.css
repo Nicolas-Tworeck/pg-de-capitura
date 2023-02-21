@@ -35,6 +35,7 @@ ul li{
     background-color:rgb(206, 206, 206) ;
     border-radius: 10px;
     font-size: 17px;
+    color: grey;
 }
 
 .input label{
@@ -71,4 +72,9 @@ p{
 }
 button{
     cursor: pointer;
+}
+h6{
+    color: grey;
+    position: relative;
+    left: 20px;
 }
