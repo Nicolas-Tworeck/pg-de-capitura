@@ -77,4 +77,6 @@ h6{
     color: grey;
     position: relative;
     left: 20px;
+    margin-top: -2px;
+    margin-bottom: -15px;
 }
