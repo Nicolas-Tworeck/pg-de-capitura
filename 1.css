@@ -23,3 +23,24 @@ ul li{
     list-style: none;
     text-align: center;
 }
+.campos{
+    margin-top: 2em;
+}
+.goo-fac{
+    margin-bottom: 1.5em;
+
+}
+.goo-fac img{
+    margin-top: 7px;
+    border-radius: 40px;
+    width: 30px;
+}
+.goo-fac button{
+    font-size: 15px;
+    margin-top: 10px;
+    width: 14em;
+    height: 4em;
+}
+p{
+    margin-top: -5px;
+}
