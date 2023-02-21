@@ -36,10 +36,12 @@ ul li{
     border-radius: 10px;
     font-size: 17px;
     color: grey;
+    width: 14em;
 }
 
 .input label{
-    margin-right: 8.7em;
+    margin-right: 9.5em;
+    font-size: 20px;
 }
 
 .log-cad button{
