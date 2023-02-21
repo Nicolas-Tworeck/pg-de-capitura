@@ -26,6 +26,17 @@ ul li{
 .campos{
     margin-top: 2em;
 }
+
+
+
+.log-cad button{
+    border-radius: 10px;
+    width: 7em;
+
+    position: relative;
+    left: 23px;
+}
+
 .goo-fac{
     margin-bottom: 1.5em;
 
