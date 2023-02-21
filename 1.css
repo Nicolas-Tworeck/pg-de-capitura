@@ -66,12 +66,19 @@ ul li{
     margin-top: 10px;
     width: 14em;
     height: 4em;
+    border-radius: 10px;
+    border: 0;
+    color: rgb(99, 99, 99);
+    background: white;
 }
+
+
 p{
     margin-top: -5px;
 }
-button{
+button {
     cursor: pointer;
+
 }
 h6{
     color: grey;
@@ -84,4 +91,7 @@ h1{
     position: relative;
     left: 20px;
     font-size: 50px;
+}
+button :active{
+    opacity: 0.6;
 }
