@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -10,17 +10,19 @@
 
 <body>
     <div class="fieldset">
-        <div class="log-cad">
-            <button type="submit" onclick="login()">Login</button>
-            <button type="submit" onclick="cadastro()">Cadastro</button>
-        </div>
         <div class="campos">
-            <ul>
-                <li><label>Email</label></li>
-                <li><input type="email" placeholder="seu@email.com"></li>
-                <li><label>Senha</label></li>
-                <li><input type="password" placeholder="Sua Senha"></li>
-            </ul>
+            <div class="log-cad">
+                <button type="submit" onclick="login()">Login</button>
+                <button type="submit" onclick="cadastro()">Cadastro</button>
+            </div>
+            <div class="input">
+                <ul>
+                    <li><label>Email</label></li>
+                    <li><input type="email" placeholder="seu@email.com"></li>
+                    <li><label>Senha</label></li>
+                    <li><input type="password" placeholder="Sua Senha"></li>
+                </ul>
+            </div>
             <div class="box">
                 <ul>
                     <li><input type="checkbox">Li e aceito os <a href="">termos de serviço</a></li>
