@@ -3,12 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>TWK Cursos </title>
+    <title>TWK Login </title>
 </head>
 
 <body>
     <div class="fieldset">
-
         <div class="campos">
             <div class="log-cad">
                 <button type="submit" disabled="true">Entrar</button>
@@ -18,9 +17,9 @@
             <div class="input">
                 <ul>
                     <li><label>Email</label></li>
-                    <li><input type="email" placeholder="seu@email.com" required></li>
+                    <li><input type="email" placeholder="seu@email.com" id="email" required></li>
                     <li><label>Senha</label></li>
-                    <li><input type="password" placeholder="Sua Senha" required></li>
+                    <li><input type="password" placeholder="Sua Senha" id="password" required></li>
                 </ul>
             </div>
             <div class="box">
@@ -53,30 +52,9 @@
     </div>
 </body>
 
-<script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
 
-
-    // Your web app's Firebase configuration
-  const firebaseConfig = {
-    apiKey: "AIzaSyDnhSW4Qoc0mpU6XxonMYvlhTbAQtZIFvE",
-    authDomain: "twk-cursos-d7352.firebaseapp.com",
-    projectId: "twk-cursos-d7352",
-    storageBucket: "twk-cursos-d7352.appspot.com",
-    messagingSenderId: "120221095593",
-    appId: "1:120221095593:web:392af30ed800948f44bbb8"
-  };
-
-
-    //Inicializar firebase
-    firebase.initializeApp(firebaseConfig);
-
-
-    
-</script>
-
-
+<script src="index.js   "></script>
 <link rel="stylesheet" href="1.css">
+
 
 </html>

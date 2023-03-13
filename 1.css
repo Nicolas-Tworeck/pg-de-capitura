@@ -91,12 +91,13 @@ ul li {
     width: 30px;
 }
 
+
 .goo-fac button {
     font-size: 15px;
     margin-top: 10px;
     width: 14em;
     height: 4em;
-    border-radius: 10px;
+    border-radius: 30px;
     border: 0;
     color: rgb(99, 99, 99);
     background: white;
