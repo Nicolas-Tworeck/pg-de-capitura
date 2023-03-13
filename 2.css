@@ -21,7 +21,60 @@ body {
 .log-cad button {
     border-radius: 10px;
     width: 7em;
-    margin-top: 2em;
+
     position: relative;
     left: 23px;
+}
+h1 {
+    position: relative;
+    left: 20px;
+    font-size: 50px;
+}
+.input label {
+    margin-right: 9.5em;
+    font-size: 20px;
+}
+.input input {
+    margin-bottom: 1em;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+    font-size: 17px;
+    color: grey;
+    width: 14em;
+}
+.campos {
+    margin-top: 2em;
+}
+ul li {
+    list-style: none;
+    text-align: center;
+}
+.box li {
+    position: relative;
+    right: 15px;
+    color: grey;
+}
+
+.box li a {
+    color: grey;
+}
+
+.conect li {
+    color: grey;
+    position: relative;
+    right: 44px;
+}
+button {
+cursor: pointer;
+}
+#cad{
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    font-size: 20px;
 }
