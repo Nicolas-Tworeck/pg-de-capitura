@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>TWK Cadastro</title>
 </head>
+
 <body>
-  <div class="fieldset">
+    <div class="fieldset">
         <div class="campos">
             <div class="log-cad">
                 <button type="submit" onclick="login()">Login</button>
                 <button type="submit" onclick="cadastro()" disabled="true">Cadastrar</button>
             </div>
+            <h1>Cadastro</h1>
+            <div class="input">
+                <ul>
+                    <li><label>Nome</label></li>
+                    <li><input type="text" placeholder="Seu nome"></li>
+                    <li><label>Email</label></li>
+                    <li><input type="email" placeholder="seu@email.com"></li>
+                    <li><label>Senha</label></li>
+                    <li><input type="password" placeholder="password"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul>
+                    <li><input type="checkbox">Li e aceito os <a href="">termos de serviço</a></li>
+                </ul>
+            </div>
+            <div class="conect">
+                <ul>
+                    <li><input type="checkbox">Manter-me conectado</li>
+                </ul>
+            </div>
+            <div class="button">
+                <ul>
+                    <li><button id="cad" type="submit" onclick="criar()">Cadastrar</button></li>
+                </ul>                                                                                                                                                                                                               
+            </div>
         </div>
-  </div>  
+    </div>
 </body>
 <link rel="stylesheet" href="2.css">
+<script src="index.js"></script>
 </html>
