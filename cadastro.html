@@ -17,11 +17,11 @@
             <div class="input">
                 <ul>
                     <li><label>Nome</label></li>
-                    <li><input type="text" placeholder="Seu nome"></li>
+                    <li><input type="text" id="nome" name="nome" placeholder="Seu nome" required></li>
                     <li><label>Email</label></li>
-                    <li><input type="email" placeholder="seu@email.com"></li>
+                    <li><input type="email" id="email" name="email" placeholder="seu@email.com" required></li>
                     <li><label>Senha</label></li>
-                    <li><input type="password" placeholder="Sua senha"></li>
+                    <li><input type="password" id="password" name="password" placeholder="Sua senha" required></li>
                 </ul>
             </div>
             <div class="box">
@@ -52,7 +52,11 @@
             </ul>
         </div>
     </div>
+    <script src=" https://www.gstatic.com/firebasejs/9.17.2/firebase-app-compat.js"></script>
+<script src=" https://www.gstatic.com/firebasejs/9.17.2/firebase-auth-compat.js"></script>
 </body>
 <link rel="stylesheet" href="2.css">
-<script src="index.js"></script>
+<script src="config.js"></script>
+<script src="2.js"></script>
+
 </html>
